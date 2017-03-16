@@ -52,6 +52,10 @@
 
 #pragma mark - Core Data stack
 
+- (NSManagedObjectContext *)managedObjectContext {
+    NSManagedObjectContext *context = self.persistentContainer.viewContext;
+    return context;
+}
 @synthesize persistentContainer = _persistentContainer;
 
 - (NSPersistentContainer *)persistentContainer {

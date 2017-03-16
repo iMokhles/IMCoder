@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		43C7D81B1E7A2AAB00EB4C14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D81A1E7A2AAB00EB4C14 /* main.m */; };
 		43C7D81E1E7A2AAB00EB4C14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D81D1E7A2AAB00EB4C14 /* AppDelegate.m */; };
-		43C7D8211E7A2AAB00EB4C14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D8201E7A2AAB00EB4C14 /* ViewController.m */; };
+		43C7D8211E7A2AAB00EB4C14 /* ProjectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D8201E7A2AAB00EB4C14 /* ProjectsViewController.m */; };
 		43C7D8241E7A2AAB00EB4C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C7D8221E7A2AAB00EB4C14 /* Main.storyboard */; };
 		43C7D8271E7A2AAB00EB4C14 /* IMCoder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D8251E7A2AAB00EB4C14 /* IMCoder.xcdatamodeld */; };
 		43C7D8291E7A2AAB00EB4C14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C7D8281E7A2AAB00EB4C14 /* Assets.xcassets */; };
 		43C7D82C1E7A2AAB00EB4C14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C7D82A1E7A2AAB00EB4C14 /* LaunchScreen.storyboard */; };
+		43C7D8481E7A437200EB4C14 /* IMCMakerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D8471E7A437200EB4C14 /* IMCMakerHelper.m */; };
+		43C7D84C1E7A522400EB4C14 /* IMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D84B1E7A522400EB4C14 /* IMConstants.m */; };
+		43C7D8501E7A5DDC00EB4C14 /* IMProjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D84F1E7A5DDC00EB4C14 /* IMProjectCell.m */; };
+		43C7D8531E7A6F2200EB4C14 /* IMTemplateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D8521E7A6F2200EB4C14 /* IMTemplateCell.m */; };
+		43C7D8561E7A6F3700EB4C14 /* TemplatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D8551E7A6F3700EB4C14 /* TemplatesViewController.m */; };
+		43C7D8591E7A756D00EB4C14 /* IMTemplateFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C7D8581E7A756D00EB4C14 /* IMTemplateFieldCell.m */; };
+		E4E14890E63A82A69E926F68 /* IMProject.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E1488ECF2694A7D874D01E /* IMProject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +28,28 @@
 		43C7D81A1E7A2AAB00EB4C14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43C7D81C1E7A2AAB00EB4C14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43C7D81D1E7A2AAB00EB4C14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43C7D81F1E7A2AAB00EB4C14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		43C7D8201E7A2AAB00EB4C14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43C7D81F1E7A2AAB00EB4C14 /* ProjectsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectsViewController.h; sourceTree = "<group>"; };
+		43C7D8201E7A2AAB00EB4C14 /* ProjectsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectsViewController.m; sourceTree = "<group>"; };
 		43C7D8231E7A2AAB00EB4C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43C7D8261E7A2AAB00EB4C14 /* IMCoder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IMCoder.xcdatamodel; sourceTree = "<group>"; };
 		43C7D8281E7A2AAB00EB4C14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43C7D82B1E7A2AAB00EB4C14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43C7D82D1E7A2AAB00EB4C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C7D8461E7A437200EB4C14 /* IMCMakerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCMakerHelper.h; sourceTree = "<group>"; };
+		43C7D8471E7A437200EB4C14 /* IMCMakerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMCMakerHelper.m; sourceTree = "<group>"; };
+		43C7D8491E7A441400EB4C14 /* IMCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMCHeader.h; sourceTree = "<group>"; };
+		43C7D84A1E7A522400EB4C14 /* IMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMConstants.h; sourceTree = "<group>"; };
+		43C7D84B1E7A522400EB4C14 /* IMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMConstants.m; sourceTree = "<group>"; };
+		43C7D84E1E7A5DDC00EB4C14 /* IMProjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMProjectCell.h; sourceTree = "<group>"; };
+		43C7D84F1E7A5DDC00EB4C14 /* IMProjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMProjectCell.m; sourceTree = "<group>"; };
+		43C7D8511E7A6F2200EB4C14 /* IMTemplateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTemplateCell.h; sourceTree = "<group>"; };
+		43C7D8521E7A6F2200EB4C14 /* IMTemplateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMTemplateCell.m; sourceTree = "<group>"; };
+		43C7D8541E7A6F3700EB4C14 /* TemplatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplatesViewController.h; sourceTree = "<group>"; };
+		43C7D8551E7A6F3700EB4C14 /* TemplatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplatesViewController.m; sourceTree = "<group>"; };
+		43C7D8571E7A756D00EB4C14 /* IMTemplateFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTemplateFieldCell.h; sourceTree = "<group>"; };
+		43C7D8581E7A756D00EB4C14 /* IMTemplateFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMTemplateFieldCell.m; sourceTree = "<group>"; };
+		E4E141E027D38C9EFBE5542B /* IMProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMProject.h; sourceTree = "<group>"; };
+		E4E1488ECF2694A7D874D01E /* IMProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMProject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,14 +84,14 @@
 			children = (
 				43C7D81C1E7A2AAB00EB4C14 /* AppDelegate.h */,
 				43C7D81D1E7A2AAB00EB4C14 /* AppDelegate.m */,
-				43C7D81F1E7A2AAB00EB4C14 /* ViewController.h */,
-				43C7D8201E7A2AAB00EB4C14 /* ViewController.m */,
+				43C7D84D1E7A5DC500EB4C14 /* ProjectsPage */,
 				43C7D8221E7A2AAB00EB4C14 /* Main.storyboard */,
 				43C7D8281E7A2AAB00EB4C14 /* Assets.xcassets */,
 				43C7D82A1E7A2AAB00EB4C14 /* LaunchScreen.storyboard */,
 				43C7D82D1E7A2AAB00EB4C14 /* Info.plist */,
 				43C7D8251E7A2AAB00EB4C14 /* IMCoder.xcdatamodeld */,
 				43C7D8191E7A2AAB00EB4C14 /* Supporting Files */,
+				43C7D83B1E7A3BA900EB4C14 /* Groups */,
 			);
 			path = IMCoder;
 			sourceTree = "<group>";
@@ -80,6 +102,93 @@
 				43C7D81A1E7A2AAB00EB4C14 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43C7D8391E7A3B9A00EB4C14 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				43C7D83F1E7A3BE800EB4C14 /* Libs */,
+				43C7D83E1E7A3BCF00EB4C14 /* Maker */,
+				43C7D83D1E7A3BC900EB4C14 /* Editor */,
+				43C7D83C1E7A3BC100EB4C14 /* Builder */,
+				43C7D83A1E7A3BA200EB4C14 /* Object */,
+			);
+			name = Project;
+			sourceTree = "<group>";
+		};
+		43C7D83A1E7A3BA200EB4C14 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				E4E1488ECF2694A7D874D01E /* IMProject.m */,
+				E4E141E027D38C9EFBE5542B /* IMProject.h */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		43C7D83B1E7A3BA900EB4C14 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				43C7D8391E7A3B9A00EB4C14 /* Project */,
+				43C7D8491E7A441400EB4C14 /* IMCHeader.h */,
+				43C7D84A1E7A522400EB4C14 /* IMConstants.h */,
+				43C7D84B1E7A522400EB4C14 /* IMConstants.m */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		43C7D83C1E7A3BC100EB4C14 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Builder;
+			sourceTree = "<group>";
+		};
+		43C7D83D1E7A3BC900EB4C14 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+		43C7D83E1E7A3BCF00EB4C14 /* Maker */ = {
+			isa = PBXGroup;
+			children = (
+				43C7D8461E7A437200EB4C14 /* IMCMakerHelper.h */,
+				43C7D8471E7A437200EB4C14 /* IMCMakerHelper.m */,
+			);
+			name = Maker;
+			sourceTree = "<group>";
+		};
+		43C7D83F1E7A3BE800EB4C14 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		43C7D84D1E7A5DC500EB4C14 /* ProjectsPage */ = {
+			isa = PBXGroup;
+			children = (
+				43C7D81F1E7A2AAB00EB4C14 /* ProjectsViewController.h */,
+				43C7D8201E7A2AAB00EB4C14 /* ProjectsViewController.m */,
+				43C7D84E1E7A5DDC00EB4C14 /* IMProjectCell.h */,
+				43C7D84F1E7A5DDC00EB4C14 /* IMProjectCell.m */,
+				43C7D85A1E7A759C00EB4C14 /* TemplatesPage */,
+			);
+			name = ProjectsPage;
+			sourceTree = "<group>";
+		};
+		43C7D85A1E7A759C00EB4C14 /* TemplatesPage */ = {
+			isa = PBXGroup;
+			children = (
+				43C7D8511E7A6F2200EB4C14 /* IMTemplateCell.h */,
+				43C7D8521E7A6F2200EB4C14 /* IMTemplateCell.m */,
+				43C7D8571E7A756D00EB4C14 /* IMTemplateFieldCell.h */,
+				43C7D8581E7A756D00EB4C14 /* IMTemplateFieldCell.m */,
+				43C7D8541E7A6F3700EB4C14 /* TemplatesViewController.h */,
+				43C7D8551E7A6F3700EB4C14 /* TemplatesViewController.m */,
+			);
+			name = TemplatesPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +224,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = EAST223S7M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -154,10 +268,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C7D8211E7A2AAB00EB4C14 /* ViewController.m in Sources */,
+				43C7D8211E7A2AAB00EB4C14 /* ProjectsViewController.m in Sources */,
 				43C7D81E1E7A2AAB00EB4C14 /* AppDelegate.m in Sources */,
+				43C7D8561E7A6F3700EB4C14 /* TemplatesViewController.m in Sources */,
 				43C7D81B1E7A2AAB00EB4C14 /* main.m in Sources */,
 				43C7D8271E7A2AAB00EB4C14 /* IMCoder.xcdatamodeld in Sources */,
+				43C7D8481E7A437200EB4C14 /* IMCMakerHelper.m in Sources */,
+				E4E14890E63A82A69E926F68 /* IMProject.m in Sources */,
+				43C7D8531E7A6F2200EB4C14 /* IMTemplateCell.m in Sources */,
+				43C7D8591E7A756D00EB4C14 /* IMTemplateFieldCell.m in Sources */,
+				43C7D84C1E7A522400EB4C14 /* IMConstants.m in Sources */,
+				43C7D8501E7A5DDC00EB4C14 /* IMProjectCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +396,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EAST223S7M;
 				INFOPLIST_FILE = IMCoder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imokhles.IMCoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -287,11 +410,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = EAST223S7M;
 				INFOPLIST_FILE = IMCoder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imokhles.IMCoder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -314,6 +439,7 @@
 				43C7D8321E7A2AAB00EB4C14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

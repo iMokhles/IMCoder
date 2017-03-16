@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IMTemplateCell.h
 //  IMCoder
 //
 //  Created by iMokhles on 16/03/2017.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface IMTemplateCell : UITableViewCell
+- (void)configureWithTemplateName:(NSString *)name;
 @end
-
